@@ -8,3 +8,5 @@ C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\Micros
 C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\Microsoft.Scripting.Metadata.dll
 C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\obj\Debug\fav clubs.pyprojResolveAssemblyReference.cache
 C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\obj\Debug\fav clubs.exe
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\obj\Debug\fav_clubs.MainForm.resources
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\obj\Debug\fav clubs.pyproj.GenerateResource.Cache

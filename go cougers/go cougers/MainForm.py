@@ -48,6 +48,7 @@ class MainForm(Form):
         self._button2.TabIndex = 2
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -59,6 +60,7 @@ class MainForm(Form):
         self._button3.TabIndex = 3
         self._button3.Text = "End"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # MainForm
         # 
@@ -74,4 +76,10 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-     self._label1.Text = "I love you Anikain"
+     self._label1.Text = " You were like a brother to me Anikain. I loved you."
+
+    def Button2Click(self, sender, e):
+        self._label1.Text = "I Hate You"
+
+    def Button3Click(self, sender, e):
+        Application.Exit()

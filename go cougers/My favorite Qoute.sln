@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "go cougers", "go cougers\go cougers.pyproj", "{576730B7-71F6-4A01-8AA3-515494BD5373}"
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "My favorite qoute", "go cougers\My favorite qoute.pyproj", "{576730B7-71F6-4A01-8AA3-515494BD5373}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
