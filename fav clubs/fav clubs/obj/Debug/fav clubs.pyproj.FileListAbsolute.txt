@@ -1,0 +1,10 @@
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\fav clubs.exe.config
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\fav clubs.exe
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\fav clubs.dll
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\IronPython.dll
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\IronPython.Modules.dll
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\obj\Debug\fav clubs.pyprojResolveAssemblyReference.cache
+C:\Users\mckelvey.e\Desktop\programming one\fav clubs\fav clubs\obj\Debug\fav clubs.exe

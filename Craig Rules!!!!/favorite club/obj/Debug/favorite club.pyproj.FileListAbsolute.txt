@@ -1,0 +1,12 @@
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\obj\Debug\favorite club.pyprojResolveAssemblyReference.cache
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\obj\Debug\favorite_club.MainForm.resources
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\obj\Debug\favorite club.pyproj.GenerateResource.Cache
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\favorite club.exe.config
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\favorite club.exe
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\favorite club.dll
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\IronPython.dll
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\IronPython.Modules.dll
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mckelvey.e\Desktop\programming one\Craig Rules!!!!\favorite club\obj\Debug\favorite club.exe
