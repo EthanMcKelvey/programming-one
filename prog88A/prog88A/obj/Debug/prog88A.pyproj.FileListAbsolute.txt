@@ -1,0 +1,3 @@
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\obj\Debug\prog88A.pyprojResolveAssemblyReference.cache
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\obj\Debug\prog88A.MainForm.resources
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\obj\Debug\prog88A.pyproj.GenerateResource.Cache
