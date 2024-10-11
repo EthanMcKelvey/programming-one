@@ -35,7 +35,8 @@ class MainForm(Form):
         self._label1.Name = "label1"
         self._label1.Size = System.Drawing.Size(182, 91)
         self._label1.TabIndex = 0
-        self._label1.Text = "Choose a sing number below"
+        self._label1.Text = """Choose a single
+ number below"""
         self._label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # label2
@@ -46,7 +47,7 @@ class MainForm(Form):
         self._label2.Size = System.Drawing.Size(264, 280)
         self._label2.TabIndex = 1
         self._label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        # 
+        #
         # button1
         # 
         self._button1.BackColor = System.Drawing.Color.Maroon
@@ -56,7 +57,6 @@ class MainForm(Form):
         self._button1.TabIndex = 2
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = False
-        self._button1.Click += self.Button1Click
         # 
         # button2
         # 
@@ -101,28 +101,29 @@ class MainForm(Form):
         # 
         # radioButton2
         # 
-        self._radioButton2.Location = System.Drawing.Point(80, 74)
+        self._radioButton2.Location = System.Drawing.Point(86, 85)
         self._radioButton2.Name = "radioButton2"
-        self._radioButton2.Size = System.Drawing.Size(104, 33)
+        self._radioButton2.Size = System.Drawing.Size(98, 33)
         self._radioButton2.TabIndex = 1
         self._radioButton2.TabStop = True
-        self._radioButton2.Text = "0"
+        self._radioButton2.Text = "7"
         self._radioButton2.UseVisualStyleBackColor = True
+        self._radioButton2.CheckedChanged += self.RadioButton2CheckedChanged
         # 
         # radioButton3
         # 
-        self._radioButton3.Location = System.Drawing.Point(80, 108)
+        self._radioButton3.Location = System.Drawing.Point(86, 124)
         self._radioButton3.Name = "radioButton3"
-        self._radioButton3.Size = System.Drawing.Size(104, 40)
+        self._radioButton3.Size = System.Drawing.Size(96, 40)
         self._radioButton3.TabIndex = 2
         self._radioButton3.TabStop = True
-        self._radioButton3.Text = "0"
+        self._radioButton3.Text = "8"
         self._radioButton3.UseVisualStyleBackColor = True
         self._radioButton3.CheckedChanged += self.RadioButton3CheckedChanged
         # 
         # radioButton4
         # 
-        self._radioButton4.Location = System.Drawing.Point(0, 74)
+        self._radioButton4.Location = System.Drawing.Point(6, 85)
         self._radioButton4.Name = "radioButton4"
         self._radioButton4.Size = System.Drawing.Size(74, 45)
         self._radioButton4.TabIndex = 3
@@ -133,29 +134,29 @@ class MainForm(Form):
         # 
         # radioButton5
         # 
-        self._radioButton5.Location = System.Drawing.Point(80, 45)
+        self._radioButton5.Location = System.Drawing.Point(86, 56)
         self._radioButton5.Name = "radioButton5"
-        self._radioButton5.Size = System.Drawing.Size(104, 34)
+        self._radioButton5.Size = System.Drawing.Size(98, 34)
         self._radioButton5.TabIndex = 4
         self._radioButton5.TabStop = True
-        self._radioButton5.Text = "0"
+        self._radioButton5.Text = "6"
         self._radioButton5.UseVisualStyleBackColor = True
         self._radioButton5.CheckedChanged += self.RadioButton5CheckedChanged
         # 
         # radioButton6
         # 
-        self._radioButton6.Location = System.Drawing.Point(86, 6)
+        self._radioButton6.Location = System.Drawing.Point(86, 9)
         self._radioButton6.Name = "radioButton6"
-        self._radioButton6.Size = System.Drawing.Size(104, 45)
+        self._radioButton6.Size = System.Drawing.Size(98, 45)
         self._radioButton6.TabIndex = 6
         self._radioButton6.TabStop = True
-        self._radioButton6.Text = "0"
+        self._radioButton6.Text = "5"
         self._radioButton6.UseVisualStyleBackColor = True
         self._radioButton6.CheckedChanged += self.RadioButton6CheckedChanged
         # 
         # radioButton7
         # 
-        self._radioButton7.Location = System.Drawing.Point(0, 109)
+        self._radioButton7.Location = System.Drawing.Point(6, 121)
         self._radioButton7.Name = "radioButton7"
         self._radioButton7.Size = System.Drawing.Size(74, 39)
         self._radioButton7.TabIndex = 5
@@ -166,7 +167,7 @@ class MainForm(Form):
         # 
         # radioButton8
         # 
-        self._radioButton8.Location = System.Drawing.Point(0, 144)
+        self._radioButton8.Location = System.Drawing.Point(6, 156)
         self._radioButton8.Name = "radioButton8"
         self._radioButton8.Size = System.Drawing.Size(74, 39)
         self._radioButton8.TabIndex = 7
@@ -177,18 +178,18 @@ class MainForm(Form):
         # 
         # radioButton10
         # 
-        self._radioButton10.Location = System.Drawing.Point(80, 144)
+        self._radioButton10.Location = System.Drawing.Point(86, 156)
         self._radioButton10.Name = "radioButton10"
         self._radioButton10.Size = System.Drawing.Size(74, 39)
         self._radioButton10.TabIndex = 9
         self._radioButton10.TabStop = True
-        self._radioButton10.Text = "0"
+        self._radioButton10.Text = "9"
         self._radioButton10.UseVisualStyleBackColor = True
         self._radioButton10.CheckedChanged += self.RadioButton10CheckedChanged
         # 
         # radioButton1
         # 
-        self._radioButton1.Location = System.Drawing.Point(0, 40)
+        self._radioButton1.Location = System.Drawing.Point(6, 54)
         self._radioButton1.Name = "radioButton1"
         self._radioButton1.Size = System.Drawing.Size(74, 39)
         self._radioButton1.TabIndex = 10
@@ -199,7 +200,7 @@ class MainForm(Form):
         # 
         # radioButton9
         # 
-        self._radioButton9.Location = System.Drawing.Point(0, 6)
+        self._radioButton9.Location = System.Drawing.Point(6, 9)
         self._radioButton9.Name = "radioButton9"
         self._radioButton9.Size = System.Drawing.Size(74, 39)
         self._radioButton9.TabIndex = 8
@@ -235,40 +236,60 @@ class MainForm(Form):
     def RadioButton4CheckedChanged(self, sender, e):
         self._label2.Text = "2 \nx9 \n____________"
 
-    def Button1Click(self, sender, e):
-        selnum = 0
-        if self._radioButton1.Checked == True:
-            selnum = 0
-        elif self._radioButton2.Checked:
-            selnum = 1
-        elif self._radioButton3.Checked:
-            selnum = 2
-        step1 = selnum * 9
-        step2 = step1 * 123456789
-           
-        self._label2.Text += "\n" + str(step1) + "nx123456789" + \
-                             "\n__________\n" +- str(step2)
-
     def Button2Click(self, sender, e):
-        pass
+        self._label2.Text = ""
 
     def Button3Click(self, sender, e):
-        Aplication.Exit()
+        Application.Exit()
 
     def RadioButton7CheckedChanged(self, sender, e):
-        pass
+        self._label2.Text = "3 \nx9 \n_____________"
 
     def RadioButton8CheckedChanged(self, sender, e):
-        pass
+        self._label2.Text = "4 \nx9 \n_____________"
 
     def RadioButton10CheckedChanged(self, sender, e):
-        pass
+        self._label2.Text = "9 \nx9 \n_____________"
 
     def RadioButton3CheckedChanged(self, sender, e):
-        pass
+        self._label2.Text = "8 \nx9 \n_____________"
 
     def RadioButton5CheckedChanged(self, sender, e):
-        pass
+        self._label2.Text = "6 \nx9 \n_____________"
 
     def RadioButton6CheckedChanged(self, sender, e):
-        pass
+        self._label2.Text = "5 \nx9 \n_____________"
+              
+
+    def Button1Click(self, sender, e):
+         selnum = 0
+         if self._radioButton1.Checked:
+             selnum = 0
+         elif self._radioButton2.Checked:
+             selnum = 1
+         elif self._radioButton3.Checked:
+             selnum = 2
+         elif self._radioButton4.Checked:
+             selnum = 3
+         elif self._radioButton5.Checked:
+             selnum = 4
+         elif self._radioButton6.Checked:
+             selnum = 5
+         elif self._radioButton7.Checked:
+             selnum = 6
+         elif self._radioButton8.Checked:
+             selnum = 7
+         elif self._radioButton9.Checked:
+             selnum = 8
+         elif self._radioButton10.Checked:
+             selnum = 9
+             
+         step1 = selnum * 9
+         step2 = selnum * 12345679
+             
+         self._label2.Text += "\n" + str(step1) + "nx123456789" + \
+                              "\n_________\n" + str(step2)
+
+    def RadioButton2CheckedChanged(self, sender, e):
+         self._label2.Text = "7 \nx9 \n_____________"
+         

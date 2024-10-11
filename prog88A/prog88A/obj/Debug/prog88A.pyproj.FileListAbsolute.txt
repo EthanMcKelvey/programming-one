@@ -1,3 +1,12 @@
 C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\obj\Debug\prog88A.pyprojResolveAssemblyReference.cache
 C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\obj\Debug\prog88A.MainForm.resources
 C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\obj\Debug\prog88A.pyproj.GenerateResource.Cache
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\prog88A.exe.config
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\prog88A.exe
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\prog88A.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\IronPython.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\IronPython.Modules.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog88A\prog88A\obj\Debug\prog88A.exe
