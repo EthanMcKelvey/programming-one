@@ -287,7 +287,7 @@ class MainForm(Form):
          step1 = selnum * 9
          step2 = selnum * 12345679
              
-         self._label2.Text += "\n" + str(step1) + "nx123456789" + \
+         self._label2.Text += "\n" + str(step1) + "nx12345679" + \
                               "\n_________\n" + str(step2)
 
     def RadioButton2CheckedChanged(self, sender, e):
