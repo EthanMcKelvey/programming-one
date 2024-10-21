@@ -1,0 +1,12 @@
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\prog 54A.exe.config
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\prog 54A.exe
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\prog 54A.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\IronPython.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\IronPython.Modules.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\obj\Debug\prog 54A.pyprojResolveAssemblyReference.cache
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\obj\Debug\prog_54A.MainForm.resources
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\obj\Debug\prog 54A.pyproj.GenerateResource.Cache
+C:\Users\mckelvey.e\Desktop\programming one\prog 54A\prog 54A\obj\Debug\prog 54A.exe
