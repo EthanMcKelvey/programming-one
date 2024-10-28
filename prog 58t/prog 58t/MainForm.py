@@ -21,11 +21,18 @@ class MainForm(Form):
         self._label7 = System.Windows.Forms.Label()
         self._button2 = System.Windows.Forms.Button()
         self._button3 = System.Windows.Forms.Button()
+        self._label8 = System.Windows.Forms.Label()
+        self._label9 = System.Windows.Forms.Label()
+        self._label10 = System.Windows.Forms.Label()
+        self._label11 = System.Windows.Forms.Label()
+        self._label12 = System.Windows.Forms.Label()
+        self._label13 = System.Windows.Forms.Label()
+        self._label14 = System.Windows.Forms.Label()
         self.SuspendLayout()
         # 
         # button1
         # 
-        self._button1.Location = System.Drawing.Point(311, 140)
+        self._button1.Location = System.Drawing.Point(392, 229)
         self._button1.Name = "button1"
         self._button1.Size = System.Drawing.Size(109, 66)
         self._button1.TabIndex = 0
@@ -40,7 +47,7 @@ class MainForm(Form):
         self._label1.Name = "label1"
         self._label1.Size = System.Drawing.Size(139, 43)
         self._label1.TabIndex = 1
-        self._label1.Text = "Cost"
+        self._label1.Text = "Price:"
         self._label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # label2
@@ -50,27 +57,27 @@ class MainForm(Form):
         self._label2.Name = "label2"
         self._label2.Size = System.Drawing.Size(139, 43)
         self._label2.TabIndex = 2
-        self._label2.Text = "Recived"
+        self._label2.Text = "Recived:"
         self._label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # label3
         # 
         self._label3.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label3.Location = System.Drawing.Point(14, 175)
+        self._label3.Location = System.Drawing.Point(310, 19)
         self._label3.Name = "label3"
-        self._label3.Size = System.Drawing.Size(139, 31)
+        self._label3.Size = System.Drawing.Size(191, 59)
         self._label3.TabIndex = 3
-        self._label3.Text = "label3"
+        self._label3.Text = "Change Due"
         self._label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # label4
         # 
         self._label4.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label4.Location = System.Drawing.Point(14, 221)
+        self._label4.Location = System.Drawing.Point(12, 141)
         self._label4.Name = "label4"
         self._label4.Size = System.Drawing.Size(139, 35)
         self._label4.TabIndex = 4
-        self._label4.Text = "label4"
+        self._label4.Text = "Dollars:"
         self._label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # textBox1
@@ -90,36 +97,36 @@ class MainForm(Form):
         # label5
         # 
         self._label5.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label5.Location = System.Drawing.Point(12, 289)
+        self._label5.Location = System.Drawing.Point(14, 188)
         self._label5.Name = "label5"
         self._label5.Size = System.Drawing.Size(139, 35)
         self._label5.TabIndex = 7
-        self._label5.Text = "label5"
+        self._label5.Text = "Quarters:"
         self._label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # label6
         # 
         self._label6.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label6.Location = System.Drawing.Point(14, 339)
+        self._label6.Location = System.Drawing.Point(12, 239)
         self._label6.Name = "label6"
         self._label6.Size = System.Drawing.Size(139, 35)
         self._label6.TabIndex = 8
-        self._label6.Text = "label6"
+        self._label6.Text = "Dimes:"
         self._label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # label7
         # 
         self._label7.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label7.Location = System.Drawing.Point(14, 385)
+        self._label7.Location = System.Drawing.Point(12, 288)
         self._label7.Name = "label7"
         self._label7.Size = System.Drawing.Size(139, 35)
         self._label7.TabIndex = 9
-        self._label7.Text = "label7"
+        self._label7.Text = "Knickles:"
         self._label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
         # button2
         # 
-        self._button2.Location = System.Drawing.Point(311, 221)
+        self._button2.Location = System.Drawing.Point(392, 301)
         self._button2.Name = "button2"
         self._button2.Size = System.Drawing.Size(109, 66)
         self._button2.TabIndex = 10
@@ -128,7 +135,7 @@ class MainForm(Form):
         # 
         # button3
         # 
-        self._button3.Location = System.Drawing.Point(311, 308)
+        self._button3.Location = System.Drawing.Point(392, 373)
         self._button3.Name = "button3"
         self._button3.Size = System.Drawing.Size(109, 66)
         self._button3.TabIndex = 11
@@ -136,9 +143,81 @@ class MainForm(Form):
         self._button3.UseVisualStyleBackColor = True
         self._button3.Click += self.Button3Click
         # 
+        # label8
+        # 
+        self._label8.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label8.Location = System.Drawing.Point(12, 332)
+        self._label8.Name = "label8"
+        self._label8.Size = System.Drawing.Size(139, 35)
+        self._label8.TabIndex = 12
+        self._label8.Text = "Pennies:"
+        self._label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        # 
+        # label9
+        # 
+        self._label9.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label9.Location = System.Drawing.Point(310, 104)
+        self._label9.Name = "label9"
+        self._label9.Size = System.Drawing.Size(191, 59)
+        self._label9.TabIndex = 13
+        self._label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        # 
+        # label10
+        # 
+        self._label10.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label10.Location = System.Drawing.Point(157, 141)
+        self._label10.Name = "label10"
+        self._label10.Size = System.Drawing.Size(183, 35)
+        self._label10.TabIndex = 14
+        self._label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        # 
+        # label11
+        # 
+        self._label11.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label11.Location = System.Drawing.Point(157, 188)
+        self._label11.Name = "label11"
+        self._label11.Size = System.Drawing.Size(183, 35)
+        self._label11.TabIndex = 15
+        self._label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        # 
+        # label12
+        # 
+        self._label12.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label12.Location = System.Drawing.Point(159, 239)
+        self._label12.Name = "label12"
+        self._label12.Size = System.Drawing.Size(183, 35)
+        self._label12.TabIndex = 16
+        self._label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        # 
+        # label13
+        # 
+        self._label13.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label13.Location = System.Drawing.Point(157, 288)
+        self._label13.Name = "label13"
+        self._label13.Size = System.Drawing.Size(183, 35)
+        self._label13.TabIndex = 17
+        self._label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        # 
+        # label14
+        # 
+        self._label14.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label14.Location = System.Drawing.Point(157, 332)
+        self._label14.Name = "label14"
+        self._label14.Size = System.Drawing.Size(183, 35)
+        self._label14.TabIndex = 18
+        self._label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        # 
         # MainForm
         # 
+        self.BackColor = System.Drawing.SystemColors.AppWorkspace
         self.ClientSize = System.Drawing.Size(513, 450)
+        self.Controls.Add(self._label14)
+        self.Controls.Add(self._label13)
+        self.Controls.Add(self._label12)
+        self.Controls.Add(self._label11)
+        self.Controls.Add(self._label10)
+        self.Controls.Add(self._label9)
+        self.Controls.Add(self._label8)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._label7)
@@ -158,23 +237,27 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        price = float(self._textBox1.Text)
-        recived = float(self._textBox2.Text)
-        giveback = recived - price
-        dollars = giveback // 1
-        cents = float(giveback - dollars)
-        quarters = int(((giveback - dollars) * 100) /25)
-        qremaind = (cents - ((quarters / 100) *25))
-        dimes = float((qremaind * 100) / 10)
-        dremain = float(cents - (qremaind + ((dimes / 100) * 7)))
-        nickles = int(dremain * 100 / 5)
-        nremain = float(cents -(dremain + ((nickles/100)*5)))
-        pennys = int(nremain * 100)
-        self._label3.Text = str(dollars)
-        self._label4.Text = str(quarters)
-        self._label5.Text = str(dimes)
-        self._label6.Text = str(nickles)
-        self._label7.Text = str(pennys)
-
+        amountdue = float (self._textBox1.Text)
+        amountgiven = float (self._textBox2.Text)
+        changedue = amountgiven - amountdue
+        self._label9.Text = str(changedue)
+        dollarvalue = int(changedue)
+        self._label10.Text = str(dollarvalue)
+        decimalchange = changedue - dollarvalue
+        quartervalue = float(decimalchange) // .25
+        quarterliteralvalue = float(quartervalue) * .25
+        rcaq = float(decimalchange) - float(quarterliteralvalue)
+        self._label11.Text = str(quartervalue)
+        dimevalue = float(rcaq) // .10
+        self._label12.Text = str(dimevalue)
+        dimeliteralvalue = float(dimevalue) * .10
+        rcad = float(rcaq) - dimeliteralvalue
+        nickelvalue = float(rcad) // .05
+        self._label13.Text = str(nickelvalue)
+        nickelliteralvalue = float(nickelvalue) * .05
+        rcan = float(rcad) - nickelliteralvalue
+        pennyvalue = float(rcan) // .01
+        self._label14.Text = str(pennyvalue)
+    
     def Button3Click(self, sender, e):
         Application.Exit()
