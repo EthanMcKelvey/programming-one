@@ -71,4 +71,8 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        pass
+        endpont = int(self._textBox1.Text)
+        num = 2
+        num2 = 2
+        for even in range(0, ):
+            line = (num) = "t\t" + str(num2)
