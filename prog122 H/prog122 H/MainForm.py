@@ -17,10 +17,12 @@ class MainForm(Form):
         # 
         # listBox1
         # 
+        self._listBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 18, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._listBox1.FormattingEnabled = True
+        self._listBox1.ItemHeight = 29
         self._listBox1.Location = System.Drawing.Point(12, 12)
         self._listBox1.Name = "listBox1"
-        self._listBox1.Size = System.Drawing.Size(949, 342)
+        self._listBox1.Size = System.Drawing.Size(1048, 294)
         self._listBox1.TabIndex = 0
         # 
         # button1
@@ -54,7 +56,7 @@ class MainForm(Form):
         # MainForm
         # 
         self.BackColor = System.Drawing.SystemColors.ActiveCaption
-        self.ClientSize = System.Drawing.Size(973, 529)
+        self.ClientSize = System.Drawing.Size(1123, 529)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
@@ -75,4 +77,4 @@ class MainForm(Form):
                               "\t\t" + str(round(nsqrt,4)) + \
                               "\t\t" + str(round(cube)) + \
                               "\t\t" + str(round(nsqrt, 6))
-        self._listBox1.Items.Add(line)
+            self._listBox1.Items.Add(line)
