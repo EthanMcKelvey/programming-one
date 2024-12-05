@@ -35,6 +35,7 @@ class MainForm(Form):
         self._timer1 = System.Windows.Forms.Timer(self._components)
         self._button3 = System.Windows.Forms.Button()
         self._button4 = System.Windows.Forms.Button()
+        self._button5 = System.Windows.Forms.Button()
         self._pictureBox1.BeginInit()
         self._pictureBox2.BeginInit()
         self._pictureBox3.BeginInit()
@@ -149,9 +150,9 @@ class MainForm(Form):
         # 
         # progressBar1
         # 
-        self._progressBar1.Location = System.Drawing.Point(24, 442)
+        self._progressBar1.Location = System.Drawing.Point(21, 462)
         self._progressBar1.Name = "progressBar1"
-        self._progressBar1.Size = System.Drawing.Size(845, 44)
+        self._progressBar1.Size = System.Drawing.Size(848, 44)
         self._progressBar1.TabIndex = 10
         # 
         # pictureBox5
@@ -258,7 +259,7 @@ class MainForm(Form):
         self._button4.BackColor = System.Drawing.Color.FromArgb(192, 0, 0)
         self._button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         self._button4.ForeColor = System.Drawing.Color.Maroon
-        self._button4.Location = System.Drawing.Point(890, 508)
+        self._button4.Location = System.Drawing.Point(896, 510)
         self._button4.Name = "button4"
         self._button4.Size = System.Drawing.Size(10, 10)
         self._button4.TabIndex = 19
@@ -266,10 +267,24 @@ class MainForm(Form):
         self._button4.UseVisualStyleBackColor = False
         self._button4.Click += self.Button4Click
         # 
+        # button5
+        # 
+        self._button5.BackColor = System.Drawing.Color.FromArgb(192, 0, 0)
+        self._button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        self._button5.ForeColor = System.Drawing.Color.Maroon
+        self._button5.Location = System.Drawing.Point(-3, 510)
+        self._button5.Name = "button5"
+        self._button5.Size = System.Drawing.Size(10, 10)
+        self._button5.TabIndex = 20
+        self._button5.Text = "button5"
+        self._button5.UseVisualStyleBackColor = False
+        self._button5.Click += self.Button5Click
+        # 
         # MainForm
         # 
         self.BackColor = System.Drawing.Color.Maroon
-        self.ClientSize = System.Drawing.Size(899, 517)
+        self.ClientSize = System.Drawing.Size(901, 519)
+        self.Controls.Add(self._button5)
         self.Controls.Add(self._button4)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._pictureBox11)
@@ -437,3 +452,6 @@ class MainForm(Form):
 
     def Button4Click(self, sender, e):
         MessageBox.Show("Why did you click this button? go back to losing money!")
+
+    def Button5Click(self, sender, e):
+        MessageBox.Show("Psst i see dead people  - Kendrick Lamar")
