@@ -259,7 +259,7 @@ class MainForm(Form):
         self._button4.BackColor = System.Drawing.Color.FromArgb(192, 0, 0)
         self._button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         self._button4.ForeColor = System.Drawing.Color.Maroon
-        self._button4.Location = System.Drawing.Point(896, 510)
+        self._button4.Location = System.Drawing.Point(900, 510)
         self._button4.Name = "button4"
         self._button4.Size = System.Drawing.Size(10, 10)
         self._button4.TabIndex = 19
